@@ -1,6 +1,6 @@
 import tkinter as tk
-
-with open('/Users/bilgehanors/Desktop/2_Game_of_Life/book.txt', 'r') as file:
+#Additional tetx file here
+with open('.book.txt', 'r') as file:
     lines = file.readlines()[1:]
 GRID_SIZE = (len(lines)+1)
 CELL_SIZE = 20
@@ -64,8 +64,8 @@ def create_grid():
                 canvas.create_rectangle(x1, y1, x2, y2, fill="black")
             else:
                 canvas.create_rectangle(x1, y1, x2, y2, fill="white")
-
-read_file("/Users/bilgehanors/Desktop/2_Game_of_Life/book.txt")
+#Additional tetx file here
+read_file("book.txt")
 
 root.mainloop()
 
