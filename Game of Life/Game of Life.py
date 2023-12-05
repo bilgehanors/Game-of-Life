@@ -1,5 +1,4 @@
 import tkinter as tk
-#Additional tetx file here
 with open('.book.txt', 'r') as file:
     lines = file.readlines()[1:]
 GRID_SIZE = (len(lines)+1)
