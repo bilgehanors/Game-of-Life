@@ -63,7 +63,6 @@ def create_grid():
                 canvas.create_rectangle(x1, y1, x2, y2, fill="black")
             else:
                 canvas.create_rectangle(x1, y1, x2, y2, fill="white")
-#Additional tetx file here
 read_file("book.txt")
 
 root.mainloop()
